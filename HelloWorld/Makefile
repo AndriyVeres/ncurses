@@ -1,8 +1,8 @@
 .PHONY: compile clean
 
-SRC = helloworld.c
-OBJ = helloworld.o
-TARGET = helloworld
+SRC = main.c
+OBJ = main.o
+TARGET = main
 
 compile: $(TARGET)
 
