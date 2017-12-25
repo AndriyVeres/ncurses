@@ -8,6 +8,7 @@ compile: $(TARGET)
 
 $(TARGET): $(OBJ) 
 	g++ $(OBJ) -lncurses -o $(TARGET)
+	clear
 	./$(TARGET)
 
 $(OBJ): $(SRC)  
